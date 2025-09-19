@@ -35,8 +35,8 @@ const grid = [
       "Speak directly with our team for quick guidance on projects, collaborations, or services — real people, real solutions.",
   },
   {
-    title: "contact@ankushtripathi.com",
-    link: "mailto:contact@ankushtripathi.com",
+    title: "contact@atmnc.in",
+    link: "mailto:contact@atmnc.in",
     description:
       "Drop us an email anytime to discuss ideas, request proposals, or share requirements. We respond fast, with clarity.",
   },
