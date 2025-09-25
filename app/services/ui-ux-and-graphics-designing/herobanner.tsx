@@ -39,6 +39,7 @@ export default function UniqueHeroWithSidebar() {
                     height="1200"
                     width="1000"
                     className="object-cover h-full w-full rounded-none"
+                    priority
                   />
                 </motion.p>
               </CardContent>
