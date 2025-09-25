@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-
+import { ConfettiButton } from "@/components/ui/confetti";
 export default function AboutPage() {
   return (
     <div className=" dark:bg-black mx-auto relative  md:flex-row bg-[url('/images/herobg.jpg')] bg-top bg-cover border-b">
@@ -22,8 +22,17 @@ export default function AboutPage() {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
           >
-            We build next-gen digital experiences with performance, aesthetics,
-            and cutting-edge technology.
+            Our upcoming events will be available soon.
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+            className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
+          >
+            <p className="relative">
+              <ConfettiButton>Celebrate 🎉</ConfettiButton>
+            </p>
           </motion.p>
         </div>
       </div>
