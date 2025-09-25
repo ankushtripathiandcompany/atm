@@ -131,8 +131,8 @@ export default function SiteHeader() {
               />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className=" tracking-wide text-md font-medium hidden md:block">
-                Ankush Tripathi & Media
+              <span className=" tracking-wider text-base md:text-xl font-medium block md:block">
+                ATM&Co.
               </span>
               <Badge variant="secondary" className="hidden text-[10px]  ">
                 ⚡Bolt
@@ -199,6 +199,11 @@ export default function SiteHeader() {
                     />
                   </div>
                 </NavigationMenuContent>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavLink href="/events" className="tracking-widest">
+                  EVENTS
+                </NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavLink href="/contact-us" className="tracking-widest">

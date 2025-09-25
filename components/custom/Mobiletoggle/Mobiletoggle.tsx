@@ -51,6 +51,10 @@ const data = {
           url: "/contact-us",
         },
         {
+          title: "Events",
+          url: "/events",
+        },
+        {
           title: "New Quote",
           url: "/new-quote",
         },
