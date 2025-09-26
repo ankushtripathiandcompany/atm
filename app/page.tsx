@@ -21,7 +21,7 @@ export default function HomePage() {
         </div>
       </div>
       <div className="block sm:hidden px-4">
-        <div className="bg-[url('/images/uiux.jpg')] bg-cover h-60 w-full rounded-3xl"></div>
+        <div className="bg-[url('/images/uiux.jpg')] bg-cover h-60 w-full rounded-none"></div>
       </div>
       <h1 className="mt-16 sm:mt-4 max-w-7xl mx-auto relative z-20 bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white">
         <SparklesText

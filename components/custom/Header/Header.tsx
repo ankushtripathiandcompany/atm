@@ -113,28 +113,31 @@ export default function SiteHeader() {
       <div className=" mx-auto flex h-16 items-center justify-between gap-3 px-4 sm:px-8 py-10">
         {/* Left: Logo + Mobile Menu */}
         <div className="sm:min-w-[300px] flex items-center gap-2">
-          <Link href="/" className="group inline-flex items-center gap-4">
-            <div className="relative grid h-8 w-8 place-items-center ">
+          <Link href="/" className="group inline-flex items-center gap-2">
+            <div className="relative grid h-7 w-7 place-items-center ">
               <Image
                 src="/favicon.svg"
                 alt="Company Logo"
-                width={200}
+                width={80}
                 height={80}
                 className="flex dark:hidden"
               />
               <Image
                 src="/favicon-white.svg"
                 alt="Company Logo"
-                width={200}
+                width={80}
                 height={80}
                 className="hidden dark:flex"
               />
             </div>
-            <div className="flex items-baseline gap-2">
-              <span className=" tracking-wider text-base md:text-xl font-medium block md:block">
+            <div className="flex flex-col gap-0 items-baseline">
+              <span className=" tracking-wider text-sm sm:text-base md:text-xl font-medium block md:block">
                 ATM&Co.
               </span>
-              <Badge variant="secondary" className="hidden text-[10px]  ">
+              <Badge
+                variant="secondary"
+                className="text-[8px] px-[4px] py-[0px] hidden"
+              >
                 ⚡Bolt
               </Badge>
             </div>

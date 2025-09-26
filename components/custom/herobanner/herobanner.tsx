@@ -56,7 +56,7 @@ export default function UniqueHeroWithSidebar() {
             </div>
 
             {/* Visual / Image Block */}
-            <Card className=" overflow-hidden rounded-4xl 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
+            <Card className="b-0 overflow-hidden rounded-0 2xl:ml-20 max-w-[680px] mx-4 sm:mx-auto ">
               <CardContent className="p-0">
                 <img
                   src="/hero-test.jpg"

@@ -100,9 +100,9 @@ export default function SheetDemo() {
   return (
     <Sheet open={open} onOpenChange={setOpen}>
       <SheetTrigger asChild>
-        <Button variant="outline" className="rounded-full">
+        <Button variant="outline" className="rounded-none">
           <Menu className="w-6 h-6" />
-          MENU
+          <span className="hidden sm:block">MENU</span>
         </Button>
       </SheetTrigger>
       <SheetContent>

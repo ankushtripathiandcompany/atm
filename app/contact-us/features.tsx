@@ -10,7 +10,7 @@ export default function FeaturesSectionDemo() {
           <Link href={feature.link} target="_blank">
             <div
               key={feature.title}
-              className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden"
+              className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-none overflow-hidden"
             >
               <Grid size={20} />
               <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">

@@ -46,7 +46,7 @@ const DummyContentOne = () => {
                   )
                 }
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Read More
               </Button>
@@ -54,7 +54,7 @@ const DummyContentOne = () => {
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Get A Quote
               </Button>
@@ -100,7 +100,7 @@ const DummyContentTwo = () => {
                   )
                 }
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Read More
               </Button>
@@ -108,7 +108,7 @@ const DummyContentTwo = () => {
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Get A Quote
               </Button>
@@ -154,7 +154,7 @@ const DummyContentThree = () => {
                   )
                 }
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Read More
               </Button>
@@ -162,7 +162,7 @@ const DummyContentThree = () => {
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Get A Quote
               </Button>
@@ -206,7 +206,7 @@ const DummyContentFour = () => {
                   window.location.replace("/services/mvps-and-prototypes/")
                 }
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Read More
               </Button>
@@ -214,7 +214,7 @@ const DummyContentFour = () => {
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Get A Quote
               </Button>
@@ -240,7 +240,7 @@ const DummyContentFive = () => {
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
           <div key={"dummy-content-five" + index} className="">
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans mb-8">
               We design intuitive{" "}
               <span className="font-bold text-neutral-700 dark:text-neutral-200">
                 intuitive interfaces and stunning visuals
@@ -260,7 +260,7 @@ const DummyContentFive = () => {
                   )
                 }
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Read More
               </Button>
@@ -268,7 +268,7 @@ const DummyContentFive = () => {
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Get A Quote
               </Button>
@@ -294,7 +294,7 @@ const DummyContentSix = () => {
       {[...new Array(1).fill(1)].map((_, index) => {
         return (
           <div key={"dummy-content-six" + index} className="">
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans  mb-8">
+            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans mb-8">
               We shape powerful brand identities and manage your public image
               with precision. Our services blend strategy, design, and
               communication to establish trust,{" "}
@@ -314,7 +314,7 @@ const DummyContentSix = () => {
                   )
                 }
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Read More
               </Button>
@@ -322,7 +322,7 @@ const DummyContentSix = () => {
               <Button
                 onClick={() => window.location.replace("/new-quote")}
                 variant="outline"
-                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6"
+                className="text-sm md:text-base cursor-pointer md:px-8 md:py-6 rounded-none"
               >
                 Get A Quote
               </Button>
