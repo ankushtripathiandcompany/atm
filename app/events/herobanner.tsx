@@ -24,16 +24,10 @@ export default function AboutPage() {
           >
             Our upcoming events will be available soon.
           </motion.p>
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
-          >
-            <p className="relative">
-              <ConfettiButton>Celebrate 🎉</ConfettiButton>
-            </p>
-          </motion.p>
+
+          <p className="relative mt-8">
+            <ConfettiButton>Celebrate 🎉</ConfettiButton>
+          </p>
         </div>
       </div>
     </div>
