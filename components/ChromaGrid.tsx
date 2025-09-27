@@ -39,31 +39,13 @@ const ChromaGrid: React.FC<ChromaGridProps> = ({
 
   const demo: ChromaItem[] = [
     {
-      image: "https://i.pravatar.cc/300?img=16",
-      title: "Casey Park",
-      subtitle: "Data Scientist",
-      handle: "@caseypark",
-      borderColor: "#EF4444",
-      gradient: "linear-gradient(195deg,#EF4444,#000)",
-      url: "https://kaggle.com/",
-    },
-    {
-      image: "https://i.pravatar.cc/300?img=25",
-      title: "Sam Kim",
-      subtitle: "Mobile Developer",
-      handle: "@thesamkim",
-      borderColor: "#8B5CF6",
-      gradient: "linear-gradient(225deg,#8B5CF6,#000)",
-      url: "https://github.com/",
-    },
-    {
-      image: "https://i.pravatar.cc/300?img=60",
-      title: "Tyler Rodriguez",
-      subtitle: "Cloud Architect",
-      handle: "@tylerrod",
+      image: "/himanshu.png",
+      title: "Himanshu Kashyap",
+      subtitle: "Web Developer",
+      handle: "/hkashyap",
       borderColor: "#06B6D4",
       gradient: "linear-gradient(135deg,#06B6D4,#000)",
-      url: "https://aws.amazon.com/",
+      url: "https://www.linkedin.com/in/hkashyap-dev/",
     },
   ];
 
