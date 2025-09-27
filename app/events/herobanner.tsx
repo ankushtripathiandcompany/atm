@@ -7,7 +7,7 @@ import LiquidEther from "@/components/LiquidEther";
 
 export default function AboutPage() {
   return (
-    <div className="relative border-b">
+    <div className="relative">
       <div className="flex flex-col align-center justify-center absolute top-0 w-full h-full">
         <div className="relative w-full max-w-4xl text-center mx-auto">
           <motion.h1

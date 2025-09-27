@@ -8,9 +8,7 @@ const page = () => {
   return (
     <div>
       <HeroBanner />
-      <div className="">
-        <ChromaGrid />
-      </div>
+      <div className=""></div>
     </div>
   );
 };
