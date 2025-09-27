@@ -3,32 +3,51 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { ConfettiButton } from "@/components/ui/confetti";
+import LiquidEther from "@/components/LiquidEther";
+
 export default function AboutPage() {
   return (
-    <div className=" dark:bg-black mx-auto relative  md:flex-row bg-[url('/images/herobg.jpg')] bg-top bg-cover border-b">
-      <div className="bg-[rgba(255,255,255,0)] dark:bg-[rgba(0,0,0,0.8)] min-h-[280px] sm:min-h-[400px]   xl:pb-0 w-full flex justify-center flex-col">
+    <div className="relative border-b">
+      <div className="flex flex-col align-center justify-center absolute top-0 w-full h-full">
         <div className="relative w-full max-w-4xl text-center mx-auto">
           <motion.h1
             initial={{ opacity: 0, y: -30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="px-4 sm:px-0  text-white dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold tracking-tight relative z-10"
+            className="px-4 sm:px-0  text-black dark:text-white text-[34px] sm:text-5xl 2xl:text-6xl font-bold tracking-tight relative z-10"
           >
-            Events
+            Our Story
           </motion.h1>
+
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
+            className="text-black dark:text-white px-8 sm:px-0 mt-6 text-base md:text-xl  relative z-10 max-w-xl mx-auto"
           >
-            Our upcoming events will be available soon.
+            We build next-gen digital experiences with performance, aesthetics,
+            and cutting-edge technology.
           </motion.p>
-
-          <p className="relative mt-8">
-            <ConfettiButton>Celebrate 🎉</ConfettiButton>
-          </p>
         </div>
+      </div>
+      <div style={{ width: "100%", height: 400, position: "relative" }}>
+        <LiquidEther
+          colors={["#5227FF", "#FF9FFC", "#B19EEF"]}
+          mouseForce={20}
+          cursorSize={100}
+          isViscous={false}
+          viscous={30}
+          iterationsViscous={32}
+          iterationsPoisson={32}
+          resolution={0.5}
+          isBounce={false}
+          autoDemo={true}
+          autoSpeed={0.5}
+          autoIntensity={2.2}
+          takeoverDuration={0.25}
+          autoResumeDelay={3000}
+          autoRampDuration={0.6}
+        />
       </div>
     </div>
   );

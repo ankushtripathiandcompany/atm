@@ -4,6 +4,8 @@ import React from "react";
 import HeroBanner from "./herobanner";
 import MetallicPaint, { parseLogoImage } from "@/components/MetallicPaint";
 import { useState, useEffect } from "react";
+import ChromaGrid from "@/components/ChromaGrid";
+
 const page = () => {
   const [imageData, setImageData] = useState<ImageData | null>(null);
 
@@ -27,6 +29,9 @@ const page = () => {
   return (
     <div>
       <HeroBanner />
+      <div className="">
+        <ChromaGrid />
+      </div>
       <div style={{ width: "100%", height: "100vh" }}>
         <MetallicPaint
           imageData={imageData ?? new ImageData(1, 1)}

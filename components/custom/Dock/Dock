@@ -1,0 +1,10 @@
+import React from 'react'
+import Dock from '@/components/';
+
+const Dock = () => {
+  return (
+    <div>Dock</div>
+  )
+}
+
+export default Dock
