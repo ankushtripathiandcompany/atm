@@ -5,7 +5,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 
 export default function TracingBeamDemo() {
   return (
-    <div className="my-16 mx-auto max-w-2xl px-0 md:px-8 bg:red">
+    <div className="mx-auto max-w-2xl px-0 md:px-8 bg:red">
       <TracingBeam className="px-6">
         <div className="max-w-2xl mx-auto antialiased pt-4 relative pl-5 sm:pl-0">
           {dummyContent.map((item, index) => (
