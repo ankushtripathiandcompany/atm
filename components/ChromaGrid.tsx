@@ -39,7 +39,7 @@ const ChromaGrid: React.FC<ChromaGridProps> = ({
 
   const demo: ChromaItem[] = [
     {
-      image: "/himanshu.png",
+      image: "/himanshu-kashyap.png",
       title: "Himanshu Kashyap",
       subtitle: "Web Developer",
       handle: "/hkashyap",
