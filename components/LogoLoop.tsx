@@ -272,8 +272,8 @@ export const LogoLoop = React.memo<LogoLoopProps>(
           "relative overflow-x-hidden group",
           "[--logoloop-gap:32px]",
           "[--logoloop-logoHeight:28px]",
-          "[--logoloop-fadeColorAuto:#ffffff]",
-          "dark:[--logoloop-fadeColorAuto:#000000]",
+          "[--logoloop-fadeColorAuto:#fff]",
+          "dark:[--logoloop-fadeColorAuto:#000]",
           scaleOnHover && "py-[calc(var(--logoloop-logoHeight)*0.1)]",
           className
         ),
@@ -410,7 +410,7 @@ export const LogoLoop = React.memo<LogoLoopProps>(
               className={cx(
                 "pointer-events-none absolute inset-y-0 left-0 z-[1]",
                 "w-[clamp(24px,8%,120px)]",
-                "bg-[linear-gradient(to_right,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_0%)]"
+                "bg-[linear-gradient(to_right,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]"
               )}
             />
             <div
@@ -418,7 +418,7 @@ export const LogoLoop = React.memo<LogoLoopProps>(
               className={cx(
                 "pointer-events-none absolute inset-y-0 right-0 z-[1]",
                 "w-[clamp(24px,8%,120px)]",
-                "bg-[linear-gradient(to_left,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_0%)]"
+                "bg-[linear-gradient(to_left,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]"
               )}
             />
           </>
