@@ -1,3 +1,4 @@
+"use client";
 import Bottomlinks from "./Bottomlinks";
 import Midlinks from "./Midlinks";
 import Toptext from "./Toptext";
@@ -9,6 +10,7 @@ export default function SiteFooter() {
         <div className=" mx-auto px-8 xl:px-20 py-20">
           <Toptext />
           <Midlinks />
+
           <Bottomlinks />
         </div>
       </div>
