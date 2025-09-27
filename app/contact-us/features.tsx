@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FeaturesSectionDemo() {
   return (
     <div className="pb-20 px-14 sm:px-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-2 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-8 max-w-5xl mx-auto">
         {grid.map((feature) => (
           <Link href={feature.link} target="_blank">
             <div
