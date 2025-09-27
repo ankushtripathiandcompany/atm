@@ -2,7 +2,6 @@
 
 import React from "react";
 import HeroBanner from "./herobanner";
-import ChromaGrid from "@/components/ChromaGrid";
 
 const page = () => {
   return (
